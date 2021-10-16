@@ -9,8 +9,8 @@ class Sample10 extends StatefulWidget {
 }
 
 class _Sample10State extends State<Sample10> {
-  List<DataPoint> _items;
-  List<double> _xAxis;
+  List<DataPoint>? _items;
+  List<double>? _xAxis;
 
   void _loadData() async {
     await Future.delayed(Duration(seconds: 3));
@@ -78,7 +78,7 @@ class _Sample10State extends State<Sample10> {
                           series: [
                             BezierLine(
                               label: "m",
-                              data: _items,
+                              data: _items!,
                             ),
                           ],
                           config: BezierChartConfig(
@@ -93,10 +93,10 @@ class _Sample10State extends State<Sample10> {
                             stepsYAxis: 1,
                             backgroundGradient: LinearGradient(
                               colors: [
-                                Colors.red[300],
-                                Colors.red[400],
-                                Colors.red[400],
-                                Colors.red[500],
+                                Colors.red[300]!,
+                                Colors.red[400]!,
+                                Colors.red[400]!,
+                                Colors.red[500]!,
                                 Colors.red,
                               ],
                               begin: Alignment.topCenter,

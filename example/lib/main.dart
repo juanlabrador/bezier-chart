@@ -225,10 +225,10 @@ Widget sample1(BuildContext context) {
                   stepsYAxis: 10,
                   backgroundGradient: LinearGradient(
                     colors: [
-                      Colors.red[300],
-                      Colors.red[400],
-                      Colors.red[400],
-                      Colors.red[500],
+                      Colors.red[300]!,
+                      Colors.red[400]!,
+                      Colors.red[400]!,
+                      Colors.red[500]!,
                       Colors.red,
                     ],
                     begin: Alignment.topCenter,
@@ -320,10 +320,10 @@ Widget sample2(BuildContext context) {
               footerHeight: 45,
               backgroundGradient: LinearGradient(
                 colors: [
-                  Colors.purpleAccent[400],
-                  Colors.purpleAccent[400],
-                  Colors.purpleAccent[700],
-                  Colors.purpleAccent[700],
+                  Colors.purpleAccent[400]!,
+                  Colors.purpleAccent[400]!,
+                  Colors.purpleAccent[700]!,
+                  Colors.purpleAccent[700]!,
                   Colors.purpleAccent,
                 ],
                 begin: Alignment.topCenter,
@@ -523,10 +523,10 @@ Widget sample5(BuildContext context) {
           verticalIndicatorFixedPosition: false,
           backgroundGradient: LinearGradient(
             colors: [
-              Colors.red[300],
-              Colors.red[400],
-              Colors.red[400],
-              Colors.red[500],
+              Colors.red[300]!,
+              Colors.red[400]!,
+              Colors.red[400]!,
+              Colors.red[500]!,
               Colors.red,
             ],
             begin: Alignment.topCenter,
@@ -569,10 +569,10 @@ Widget sample6(BuildContext context) {
           context,
           LinearGradient(
             colors: [
-              Colors.red[300],
-              Colors.red[400],
-              Colors.red[400],
-              Colors.red[500],
+              Colors.red[300]!,
+              Colors.red[400]!,
+              Colors.red[400]!,
+              Colors.red[500]!,
               Colors.red,
             ],
             begin: Alignment.topCenter,
@@ -584,10 +584,10 @@ Widget sample6(BuildContext context) {
             context,
             LinearGradient(
               colors: [
-                Colors.purple[300],
-                Colors.purple[400],
-                Colors.purple[400],
-                Colors.purple[500],
+                Colors.purple[300]!,
+                Colors.purple[400]!,
+                Colors.purple[400]!,
+                Colors.purple[500]!,
                 Colors.purple,
               ],
               begin: Alignment.topCenter,
@@ -737,10 +737,10 @@ Widget sample7(BuildContext context) {
                   stepsYAxis: 15,
                   backgroundGradient: LinearGradient(
                     colors: [
-                      Colors.red[300],
-                      Colors.red[400],
-                      Colors.red[400],
-                      Colors.red[500],
+                      Colors.red[300]!,
+                      Colors.red[400]!,
+                      Colors.red[400]!,
+                      Colors.red[500]!,
                       Colors.red,
                     ],
                     begin: Alignment.topCenter,
@@ -809,10 +809,10 @@ Widget sample8(BuildContext context) {
           stepsYAxis: 25,
           backgroundGradient: LinearGradient(
             colors: [
-              Colors.red[300],
-              Colors.red[400],
-              Colors.red[400],
-              Colors.red[500],
+              Colors.red[300]!,
+              Colors.red[400]!,
+              Colors.red[400]!,
+              Colors.red[500]!,
               Colors.red,
             ],
             begin: Alignment.topCenter,
